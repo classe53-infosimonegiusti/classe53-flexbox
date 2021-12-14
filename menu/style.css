@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+    width: 500px;
+}
+
+.logo {
+    font-size: 50px;
+    align-self: center;
+}
+
+.menu-item {
+    flex-basis: 200px;
+    color: #000;
+    background-color: aqua;
+}
+
+.smaller {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.bigger {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+
+.first {
+    order: 2;
+}
